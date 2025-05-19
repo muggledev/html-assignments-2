@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Reservation Form</title>
+  </head>
+  <body>
+    <div class="header">
+      <header align="center">
+        <h2>Come Stay in the beautiful Sanpete Valley</h2>
+      </header>
+      <div class="hero image" align="center">
+        <img src="../images/sanpete-logo.jpeg" alt="Sanpete Logo" />
+      </div>
+      <div class="image" align="center">
+        <img
+          src="../images/huntington.jpg"
+          alt="Huntington Reservoir"
+          style="width: 300px; height: auto"
+        />
+      </div>
+    </div>
+    <form>
+      <div class="first-name-field" align="center">
+        <label for="first-name">First Name (required):</label>
+        <input
+          id="first-name"
+          name="first-name"
+          type="text"
+          placeholder="first-name"
+          required
+        /><br />
+      </div>
+      <div class="last-name-field" align="center">
+        <label for="last-name">Last Name (required):</label>
+        <input
+          id="last-name"
+          name="last-name"
+          type="text"
+          placeholder="last-name"
+          required
+        /><br />
+      </div>
+      <div class="email-field" align="center">
+        <label for="email">Email (required):</label>
+        <input
+          id="email"
+          name="email"
+          type="text"
+          placeholder="email"
+          required
+        /><br />
+      </div>
+      <div class="phone-number-field" align="center">
+        <label for="phone-number">Phone Number (required):</label>
+        <input
+          id="phone-number"
+          name="phone-number"
+          type="text"
+          placeholder="phone-number"
+          required
+        /><br />
+      </div>
+      <div class="address-field" align="center">
+        <label for="address">Address</label>
+        <input id="address" name="address" type="text" placeholder="address" />
+      </div>
+      <div class="hotel" align="center">
+        <h3>Hotel Options</h3>
+        <input name="hotel" id="track89" type="radio" value="track89" />
+        <label for="track89">Track 89 Train Car Hotel</label>
+        <input
+          name="hotel"
+          id="horseshoe-mountain-lodge"
+          type="radio"
+          value="horseshoe-mountain-lodge"
+        />
+        <label for="horseshoe-mountain-lodge"
+          >Horseshoe Mountain Lodge Hotel</label
+        >
+        <input
+          name="hotel"
+          id="skyline-motel"
+          type="radio"
+          value="skyline-motel"
+        />
+        <label for="skyline-motel">Skyline Motel</label>
+      </div>
+      <br />
+      <div class="images">
+        <div class="images" align="center">
+          <img
+            src="../images/Track89.webp"
+            alt="track89"
+            style="width: 300px; height: auto"
+          />
+          <img
+            src="../images/horseshoe-mtn-lodge.png"
+            alt="horseshoe-mountain-lodge"
+            style="width: 300px; height: auto"
+          />
+          <img
+            src="../images/sklyine-motel.jpg"
+            alt="skyline-motel"
+            style="width: 300px; height: auto"
+          />
+        </div>
+      </div>
+      <div class="room-choice">
+        <select name="room-choice">
+          <option value="">Choose a room</option>
+          <option value="single-king-bed">1 King Bed</option>
+          <option value="double-queens">2 queen Beds</option>
+          <option value="family-suite">Family Suite</option>
+        </select>
+      </div>
+      <div class="amenities-field">
+        <h4>Choose your amenties:</h4>
+        <input
+          name="amenities"
+          id="flat-screen-tv"
+          type="checkbox"
+          value="flat-screen-tv"
+        />
+        <label for="flat-screen-tv">Flat Screen TV (optional):</label><br />
+        <input
+          name="amenities"
+          id="mini-fridge-and-bar"
+          type="checkbox"
+          value="mini-fridge-and-bar"
+        />
+        <label for="mini-fridge-and-bar"
+          >Mini Fridge & Mini Bar (optional):</label
+        ><br />
+        <input
+          name="amenities"
+          id="room-service-breakfast"
+          type="checkbox"
+          value="room-service-breakfast"
+        />
+        <label for="room-service-breakfast"
+          >Room Service Breakfast (optional):</label
+        ><br />
+      </div>
+      <br />
+      <div class="arrival-field">
+        <label for="arrival">Arrival Date</label>
+        <input id="arrival" name="date" type="date" />
+      </div>
+      <div class="departure-field">
+        <label for="departure">Departure Date</label>
+        <input id="departure" name="date" type="date" />
+      </div>
+      <div class="additional-requests">
+        <h4>Additional Requests</h4>
+        <textarea name="requests" rows="5" cols="30"></textarea>
+      </div>
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+    <div class="footer" align="center">
+      <footer>
+        <p>
+          Contact us: <br />446 W Main <br />
+          Fair Spring City, UT 34876 <br />
+          859-372-0804
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
