@@ -1,0 +1,27 @@
+.container {
+  padding: 48px;
+  margin: 48px auto;
+  background-color: #d9c6b2;
+  filter: drop-shadow(0 0 20px #107428);
+  color: rgb(41, 24, 6);
+  font-size: 16px;
+  max-width: 600px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.container1 {
+  padding: 48px;
+  margin: 48px auto;
+  background: linear-gradient(to bottom, #beaa94 0%, #f5eee4 90%, white 100%);
+  border: 20px double #107428;
+  color: rgb(41, 24, 6);
+  font-size: 16px;
+  max-width: 750px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.list-container {
+  background-color: #c6dccc;
+}
